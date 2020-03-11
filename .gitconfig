@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = zack mance
+	email = zmance@usertesting.com
+
+[alias]
+  goodmorning    = "!. ~/.githelpers && goodmorning"
+  prm = "!sh -c 'git log master..HEAD --pretty=tformat:\"- %h %s\" | tail -r | pbcopy'"
+
